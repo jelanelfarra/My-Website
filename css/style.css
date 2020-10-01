@@ -1,0 +1,158 @@
+/*Start Global Roles*/
+body{background-color: #000000de;overflow-x: hidden;font-family: 'Amaranth', sans-serif;}
+html, body {overflow-x: hidden !important;max-width: 100%;width: 100%;overflow: auto;}
+body svg{position: absolute;}
+.lead{color: #fff;}
+/*Start Navbar*/
+.scrolled{background-color: rgba(0,0,0,0.8);}
+.navbar ul li a{font-size: 16px;text-transform: uppercase;font-weight: bold;}
+.navbar>.container .navbar-brand,
+.navbar>.container-fluid .navbar-brand{font-size: 30px;font-family: 'Pacifico', cursive;}
+.navbar-brand span{color: #d26795;}
+/***************Start header*****************/
+.header{color: #fff;padding-top: 100px; padding-bottom: 100px;}
+.header .overlay{top:0;left: 0;width: 100%;height: 100%;min-height: 100vh;background-color: rgba(0,0,0,0.6);}
+.header .centring-vh{margin-top: 25vh;}
+.header h1{font-size: 55px;margin-bottom: 40px;}
+.header p.para{font-size: 18px;}
+.header h1 span{font-weight: normal;color: #d26795;}
+.header hr{width: 20%;border-top: 2px solid #d26795!important}
+.header button{background:transparent;padding: 5px 15px;border: 2px solid #fff;margin-top: 20px;}
+.header button:hover,.header button:active{background-color: #d26795;border:none;}
+.header .form{width: 360px;background-color: #fff;border-radius: 5px;overflow: hidden;padding-bottom:0px;margin-left: 100px;}
+.header .form h2{background-color: #f5f5f5;color: #333;padding: 15px;font-size: 18px;font-weight: bold;margin-top: 0;margin-bottom: 30px;width: 110%;margin-left: -15px;}
+.header .form h2 span{color: #d26795;}
+.header .social-media{background-color: #d26795;padding: 20px;border-radius: 0;width: 110%;margin-left: -15px;}
+.social-media i{color: #fff;font-size: 25px;margin-left: 25px;}
+.header img{width: 50%;border-radius:50%;margin-left: 75px;margin-bottom: 30px;    box-shadow: 0 2px 10px rgba(0,0,0,.8);}
+.uppercase{text-transform: uppercase;}
+ span.bink{color: #d26795;}
+
+/*****Start personal info.*****/
+.p-info{padding: 80px 0;}
+.p-info h2{color: #fff;}
+.p-info h3{color: #9d9d9d;font-size: 30px;margin: 50px 10px;}
+.p-info .info span.title,.p-info .info span.answer{color: #fff;font-size: 17px;}
+.info span.title{margin-right: 60px;}
+.info span i{ color: #d26795;margin-right: 10px;font-size: 18px;}
+.lang span.title{color: #fff; font-size: 17px; margin-bottom: 60px;}
+.lang i.arabic{color: #d26795;font-size: 13px;margin-left: 5px;}
+.lang span i{color: #fff;}
+.p-info .btn-success{background-color: #d26795!important;margin-top: 50px;margin-left: 15px;border: none!important;}
+/*****Start Skills.*****/
+.skills h2{color: #fff;}
+.skills .skill p{color: #fff;font-size: 17px;margin-bottom: 30px;}
+.skills .skill,.skills .prog{padding-top:80px}
+.progress{margin-bottom: 32px!important;}
+.progress-bar-success{background-color: #d26795!important;}
+/**************Experience work******************/
+.work{padding:100px 0;}
+.work h2{color: #fff;padding-bottom: 70px;}
+.work p{font-size: 18px;}
+.work h3{color: #9d9d9d;font-size: 30px;margin-bottom: 30px;}
+.work img{width: 75%;margin-left: 50px;}
+.work span i{color: #d26795;font-size: 23px;}
+/***************Porfolio*********************/
+.port{padding: 80px 30px;}
+.port h2{ color:#fff;margin-bottom: 40px;}
+.port img{width: 100%;}
+.port .box{margin: 40px;}
+.port .box .btn-danger{padding: 6px 223px!important;background-color:#d26795!important;border: none;}
+/***************Footer*********************/
+.footer{background-color: #000; padding-top: 50px;margin-top:100px;}
+.footer p,.footer span{color: #fff; font-size: 17px;}
+.footer .social-media{padding: 40px;}
+.footer .social-media i{color: #d26795;}
+.footer .social-media i:hover{color: #fff;}
+.copy-right{
+    background-color: #000;
+    color: #eee;
+    padding: 20px;
+    font-size: 17px;
+    border-top: 2px #d26795 solid;
+}
+/*Start Scroll To Top*/
+#scroll-top{
+	width: 50px;
+	height: 50px;
+	color: aliceblue;
+	text-align: center;
+	border: 2px solid #fff;
+	position: fixed;
+	right: 15px;
+	bottom: 10px;
+	z-index: 99999;
+	display: none;
+	cursor: pointer;
+}
+#scroll-top i{font-size: 29px;color: #d26795;margin-top: 8px;}
+/* ***************Loading************************ */
+.loading-overlay{
+	background-color: #222;
+	color: #fff;
+	position: fixed;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+  z-index: 99999;
+ }
+.loader,
+.loader:before,
+.loader:after {
+  background: #d26795;
+  -webkit-animation: load1 1s infinite ease-in-out;
+  animation: load1 1s infinite ease-in-out;
+  width: 1em;
+  height: 4em;
+}
+.loader {
+  color: #fff;
+  text-indent: -9999em;
+  margin: 300px auto;
+  position: relative;
+  font-size: 11px;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+.loader:before,
+.loader:after {
+  position: absolute;
+  top: 0;
+  content: '';
+}
+.loader:before {
+  left: -1.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.loader:after {
+  left: 1.5em;
+}
+@-webkit-keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
+  }
+}
+@keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
+  }
+}

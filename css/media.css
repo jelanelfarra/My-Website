@@ -1,0 +1,27 @@
+@media(max-width:992px){
+.header .centring-vh{margin-top: 60px;}  
+.header .text-center-xs{text-align: center;}
+.header button{margin-left: 111px;}
+.header .form{margin-left: 0;margin-top: 40px;}
+body svg{top:50px;}
+.info span.title{margin-right: 11px;}
+.progress{height: 18px!important;margin-bottom: 70px!important;}
+.port .box .btn-danger{padding: 5px 150px!important;}
+.port .box{margin-left: -33px;}
+.footer .social-media a{margin-left: -11px;}
+}
+@media(width:768px){
+    .header .form{margin-left: 200px;}
+    .header button{width: 30%;font-size: 17px;margin-left: 250px;}
+    .p-info .info span.title, .p-info .info span.answer,.lang span.title{font-size: 24px;}
+    .info span i{font-size: 28px;}
+    .info span.title{margin-right: 40px;}
+    .p-info h3,.work h3{font-size: 35px;}
+    .lang i.arabic{font-size: 20px;}
+    .lang span.small{font-size: 24px;}
+    .p-info .btn-success{font-size: 20px;}
+    .header p.para,.work p.lead{font-size: 23px;}
+    .skills .skill p{font-size: 23px;}
+    .progress{margin-bottom: 60px!important;}
+    .port .box .btn-danger{padding: 5px 350px!important;font-size: 18px;}
+}
